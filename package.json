@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "vitepress dev content",
+    "build": "vitepress build content",
+    "serve": "vitepress serve content"
+  },
+  "author": "lanly-dev",
+  "devDependencies": {
+    "vitepress": "^0.20.0"
+  }
+}
