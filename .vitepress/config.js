@@ -1,8 +1,8 @@
 require('./genMetadata').watchPosts()
 
 module.exports = {
-  title: 'Helloworld',
-  description: 'the description',
+  title: 'Home',
+  description: 'Home page',
   head: [
     [
       'link',
