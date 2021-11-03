@@ -15,12 +15,12 @@ function getPost(file, postDir, asFeed = false) {
   }
 
   const src = fs.readFileSync(fullePath, 'utf-8')
-  const { data, excerpt } = matter(src, { excerpt: true })
+  const { data } = matter(src)
   const post = {
     title: data.title,
     href: `/posts/${file.replace(/\.md$/, '.html')}`,
     date: formatDate(data.date),
-    excerpt
+    excerpt: data.excerpt
   }
   if (asFeed) {
     // only attach these when building the RSS feed to avoid bloating the

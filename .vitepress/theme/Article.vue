@@ -1,7 +1,8 @@
 <template lang="pug">
-p the detail
+Content
 </template>
 
 <script setup>
 import posts from '../metadata.json'
+
 </script>

@@ -1,10 +1,11 @@
 {
   "scripts": {
-    "dev": "vitepress dev",
+    "dev": "vitepress",
     "build": "vitepress build",
     "serve": "vitepress serve"
   },
   "author": "lanly-dev",
+  "private": true,
   "devDependencies": {
     "cheap-watch": "^1.0.4",
     "gray-matter": "^4.0.3",
