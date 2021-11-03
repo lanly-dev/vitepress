@@ -1,9 +1,15 @@
 {
   "cSpell.words": [
+    "fontawesome",
+    "fortawesome",
     "lanly",
+    "Linkedin",
     "tailwindcss",
     "vitepress"
   ],
   "editor.rulers": [120],
-  "explorer.sortOrder": "type"
+  "explorer.sortOrder": "type",
+  "files.exclude": {
+    ".vitepress/dist": true
+  }
 }
