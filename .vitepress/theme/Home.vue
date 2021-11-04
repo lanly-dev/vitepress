@@ -1,11 +1,10 @@
 <template lang="pug">
-.text-center(class='md:text-left' v-for='post in posts ')
-  article.flex.justify-between.p-10
+.text-center(class='sm:text-left' v-for='post in posts')
+  article.justify-between.py-7(class='sm:flex-row-reverse')
+    p.m-0(class='sm:float-right') {{post.date.string}}
     div
-      p.text-xl {{post.title}}
+      a.text-xl(:href='post.href') {{post.title}}
       p {{post.excerpt}}
-      a.link(:href='post.href') Read more
-    p.float-right {{post.date.string}}
   hr
 </template>
 
